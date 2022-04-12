@@ -12,8 +12,6 @@ async function getUserInformation() {
 
     userInfo.browser = parsedResults.browser.name
     userInfo.os = osDescription(parsedResults.os.name)
-    userInfo.country = parsedResults.country.name
-    userInfo.city = parsedResults.city.name
 
     decorateAboutYou(userInfo)
     unhideAboutYou()
