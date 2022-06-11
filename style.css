@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;700&display=swap');
+
+body{
+    background-color: #1a1826;
+    font-family: Jetstream mono, monospace;
+}
+
+h1{
+    color: #a6e3a1;
+    text-align: center;
+}
+
+h2{
+    color: #a6e3a1;
+    text-align: left;
+}
+
+p{
+    color: #cdd6f4;
+
+}
+
+li{
+    color: #cdd6f4;
+}
+
+a:link{
+    color: #74c7ec;
+}
+
+a:visited{
+    color: #cba6f7;
+}
+
+/* typing animation */
+.wrapper {
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    text-align: center;
+    width: 25ch;
+    animation: typing 2.5s steps(25), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: Jetbrains mono, monospace, weight: 700;
+    font-size: 2em;
+    font-weight: bold;
+    color: #a6e3a1;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
